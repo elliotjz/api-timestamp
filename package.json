@@ -1,6 +1,7 @@
 {
   "name": "timestamp",
   "version": "1.0.0",
+  "homepage": "https://elliotjz.github.io/api-timestamp/",
   "description": "An API that returns a timestamp for the given date in natural or unix format.",
   "main": "app.js",
   "scripts": {
