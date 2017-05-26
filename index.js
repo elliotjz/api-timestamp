@@ -12,6 +12,8 @@ app.get('*', function (req, res) {
 	var unix;
 	var natural;
 
+	console.log("process.env: " + process.env);
+
 	if (url.length === 3
 		&& months.indexOf(url[0].substring(1).toLowerCase()) != -1
 		&& parseInt(url[1]) <= 31
