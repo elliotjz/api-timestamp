@@ -1,4 +1,7 @@
-# api-timestamp
-API that converts timestamps to JSON.
-Published on github pages: https://elliotjz.github.io/api-timestamp/
+# Timestamp Microservice
 
+freeCodeCamp API project.
+
+Converts timestamps to JSON.
+
+[Working App](https://elliotjz-timestamp.herokuapp.com/)

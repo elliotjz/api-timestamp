@@ -6,6 +6,10 @@ const express = require('express');
 
 const app = express();
 
+app.get('/', function(req, res) {
+	res.sendFile(__dirname + 'index.html');
+})
+
 app.get('*', function (req, res) {
 	let url = req.url.split('%20');
 	var date;
